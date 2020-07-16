@@ -7,20 +7,20 @@ Este código toma partes de https://gist.github.com/rjekic/2d04423bd167f8e7afd26
 
 Es script realiza las siguientes tareas:
 
-- Crea la carpeta de donde se va a descargar a instalar el WordPress
-- Crea una base de datos con los datos provistos
-- Crea el usuario de la base de datos y le da privilegios
-- Instala wp-cli para poder utilizarlo
-- Descarga WordPress en su versión más reciente (en español)
-- Crea un archivo wp-config usando las credenciales definidas
-- Instala el sitio de Wordpress usando las credenciales definidas
-- Permite asignar un nuevo prefijo de las tablas para la base de datos
-- Ejecuta acciones para limpiar instalaciones de temas/plugins que vienen por default en WP
-- Instala plugins que requiero en mi instalación nueva
-- Elimina los pots y páginas por default de WordPress
-- Realiza ajustes de parámetros default necesarios como timezone y permalinks
+- Crea la carpeta de donde se va a descargar a instalar el WordPress.
+- Crea una base de datos con los datos provistos.
+- Crea el usuario de la base de datos y le da privilegios.
+- Instala wp-cli para poder utilizarlo.
+- Descarga WordPress en su versión más reciente (en español).
+- Crea un archivo wp-config usando las credenciales definidas.
+- Instala el sitio de Wordpress usando las credenciales definidas.
+- Permite asignar un nuevo prefijo de las tablas para la base de datos.
+- Ejecuta acciones para limpiar instalaciones de temas/plugins que vienen por default en WP.
+- Instala plugins que requiero en mi instalación nueva.
+- Elimina los pots y páginas por default de WordPress.
+- Realiza ajustes de parámetros default necesarios como timezone y permalinks.
 - Genera el archivo .htaccess
-- Permite asignar a mis carpetas y archivos, el nombre de usuario y grupo requeridos
+- Permite asignar a mis carpetas y archivos, el nombre de usuario y grupo requeridos.
 
 
 Pendientes:
