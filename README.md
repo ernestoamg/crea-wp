@@ -3,7 +3,7 @@
 Este script depende del usuario root.
 
 Crea una instancia de WordPress utilizando WP-cli
-Este código toma partes de https://gist.github.com/rjekic/2d04423bd167f8e7afd26f8982609378 y elimina la opción de hacer una instalación utilizando comandos del sistema operativo y se basa unicamente en wp-cli.
+Este código toma partes de https://gist.github.com/rjekic/2d04423bd167f8e7afd26f8982609378 y https://gist.github.com/ginfuru/a4665805bcf41d2f306ec67a09b37ee7, pero se elimina la opción de hacer una instalación utilizando comandos del sistema operativo y se basa unicamente en wp-cli.
 
 Es script realiza las siguientes tareas:
 
