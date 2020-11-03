@@ -110,18 +110,18 @@ if [ "$install_method" == 1 ]; then
 		wp core install --url=$url --title="$title" --admin_name=$admin_name --admin_password=$admin_pass --admin_email=$admin_email --allow-root
 
 		#otras acciones para limpiar instalaciones de temas/plugins
-    wp post delete 1 2 --force --allow-root # borra los posts/paginas de ejemplo
-    wp plugin delete akismet --allow-root
-    wp plugin delete hello --allow-root
-    wp theme delete twentyseventeen --allow-root
-    wp theme delete twentynineteen --allow-root
+    		wp post delete 1 2 --force --allow-root # borra los posts/paginas de ejemplo
+		wp plugin delete akismet --allow-root
+    		wp plugin delete hello --allow-root
+    		wp theme delete twentyseventeen --allow-root
+    		wp theme delete twentynineteen --allow-root
 		wp theme update twentytwenty --allow-root
 
 		#algunos ajustes default necesarios
 		wp option update  --allow-root blogdescription ""
-    wp option update  --allow-root start_of_week 0
-    wp option update  --allow-root timezone_string "America/Panama"
-    wp option update --allow-root permalink_structure "/%postname%"
+    		wp option update  --allow-root start_of_week 0
+    		wp option update  --allow-root timezone_string "America/Panama"
+    		wp option update --allow-root permalink_structure "/%postname%"
 
 		wp plugin install better-wp-security --allow-root
 		wp plugin install go-live-update-urls --activate --allow-root
