@@ -99,6 +99,7 @@ if [ "$install_method" == 1 ]; then
 		# Descargando el último paquete de WordPress usando wp-cli
 		wp core download --locale=es_ES --allow-root
 
+		#asignamos un nuevo prefijo para nuestras tablas, aumentando la seguridad
 		newdbprefix="wp_"
 		read -p "Nuevo prefijo de las tablas par la base de datos ej. wpol33_ [default: wp_]: " newdbprefix
 
